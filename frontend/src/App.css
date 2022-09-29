@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  background-color: #f7fafc;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App h1 {
+  margin-top: 50px;
+  color: #2b2a2e;
+}
+
+.App-end-text {
+  color: #2b2a2e;
+  font-size: 1.5em;
+  font-weight: bolder;
+}
+
+.App-qz-text {
+  margin: auto;
+  text-align: start;
+  width: 50%;
+  color: #2b2a2e;
+}
+
+App-qz-text p {
+  font-size: 1.5em;
+  color: #2b2a2e;
+}
+
+.App-qz-text input {
+  padding: 25px;
+  margin-left: 20px;
+  width: 85%;
+  font-size: 1.5em;
+}
+
+.App button {
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 80px;
+  background-color: #3f105a;
+  border: none;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.App-my-progress {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 10px;
+}
+
+.App-my-bar {
+  height: 30px;
+  background-color: #3f105a;
+  transition: 0.1s;
+  text-align: right;
+  line-height: 30px;
+  color: white;
+  border-radius: 10px;
+  padding-right: 10px;
+}
+
+.App button:hover {
+  background-color: #390e52;
+  cursor: pointer;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .App .App-qz-text {
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .App .App-qz-text {
+    margin-left: 15%;
+  }
+}
+
+.App-layout {
+  background-color: white;
+  border: 2px solid #e1dfe9;
+  border-radius: 50px;
+  width: 60%;
+  height: 50%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
